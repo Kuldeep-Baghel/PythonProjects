@@ -31,11 +31,9 @@ def fetch_stock_data(
         stock_data.to_csv(file_path)
         print(f"Data Saved: {file_path}")
 
-    return stock_data
+    return stock_data, file_path if save_csv else None
 
 # %%
 #Example Usage
 if __name__ == "__main__":
     fetch_stock_data("INFY.NS")
-
-# %%
