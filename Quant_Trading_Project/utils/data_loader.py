@@ -1,17 +1,19 @@
-# %%
-#Import Liabraries
+# Add the project's root directory to Python's search path
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
+# Import Liabraries
 import pandas as pd
-import numpy as np
 import yfinance as yf
 from datetime import date
-import os
+from utils.config import CONFIG       # Import settings   
 
-#%%
 # Function to fetch the Data
 def fetch_stock_data(
-        ticker, 
-        start_date='2022-01-01',
-        end_date = date.today(),
+        ticker = CONFIG['ticker'], 
+        start_date= CONFIG['start_date'],
+        end_date = CONFIG['end_date'],
         save_csv =True):                    
     
     #fetch Data from Yfinance
@@ -26,14 +28,14 @@ def fetch_stock_data(
 
     # Save to CSV
     if save_csv:
-        os.makedirs("data", exist_ok=True)
-        file_path = f"data/{ticker}.csv"
+        data_folder = CONFIG['data_folder']
+        os.makedirs(data_folder, exist_ok=True)
+        file_path = os.path.join(data_folder, f'{ticker}.csv')
         stock_data.to_csv(file_path)
         print(f"Data Saved: {file_path}")
 
     return stock_data, file_path if save_csv else None
 
-# %%
 #Example Usage
 if __name__ == "__main__":
-    fetch_stock_data("INFY.NS")
+    fetch_stock_data()
