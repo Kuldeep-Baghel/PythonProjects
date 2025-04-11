@@ -1,0 +1,28 @@
+2025-04-11 13:41:39,208 - INFO - Starting backtest for TCS.NS
+2025-04-11 13:41:45,657 - INFO - Buy 31.0 shares at ₹3161.20, Remaining Cash: ₹2002.85
+2025-04-11 13:41:45,723 - INFO - Sell 31.0 shares at ₹3088.46, New Cash: ₹97745.01
+2025-04-11 13:41:45,759 - INFO - Buy 30.0 shares at ₹3200.22, Remaining Cash: ₹1738.35
+2025-04-11 13:41:46,077 - INFO - Sell 30.0 shares at ₹3779.40, New Cash: ₹115120.35
+2025-04-11 13:41:46,101 - INFO - Final Portfolio Value: ₹115120.35
+2025-04-11 13:41:46,101 - INFO - Profit: ₹15120.35
+2025-04-11 13:41:46,101 - INFO - ROI: 15.12%
+2025-04-11 13:41:46,102 - INFO - Sharpe Ratio: 0.00
+2025-04-11 13:41:46,102 - INFO - Max Consecutive Losses: 0
+2025-04-11 13:41:46,103 - INFO - Max Drawdown: -15.28%
+2025-04-11 13:41:46,104 - INFO - CAGR: 4.39%
+2025-04-11 13:47:29,454 - INFO - Starting backtest for RELIANCE.NS
+2025-04-11 13:47:35,381 - INFO - Buy 7.0 shares at ₹1420.03, Remaining Cash: ₹59.79
+2025-04-11 13:47:35,382 - INFO - Sell 7.0 shares at ₹1425.56, New Cash: ₹10038.72
+2025-04-11 13:47:35,389 - INFO - Buy 6.0 shares at ₹1451.75, Remaining Cash: ₹1328.23
+2025-04-11 13:47:35,400 - INFO - Sell 6.0 shares at ₹1449.23, New Cash: ₹10023.62
+2025-04-11 13:47:35,400 - INFO - Buy 6.0 shares at ₹1508.90, Remaining Cash: ₹970.20
+2025-04-11 13:47:35,464 - INFO - Sell 6.0 shares at ₹1476.57, New Cash: ₹9829.65
+2025-04-11 13:47:35,577 - INFO - Buy 7.0 shares at ₹1248.70, Remaining Cash: ₹1088.75
+2025-04-11 13:47:35,579 - INFO - Sell 7.0 shares at ₹1182.20, New Cash: ₹9364.15
+2025-04-11 13:47:35,581 - INFO - Final Portfolio Value: ₹9364.15
+2025-04-11 13:47:35,581 - INFO - Profit: ₹-635.85
+2025-04-11 13:47:35,581 - INFO - ROI: -6.36%
+2025-04-11 13:47:35,582 - INFO - Sharpe Ratio: -0.07
+2025-04-11 13:47:35,582 - INFO - Max Consecutive Losses: 0
+2025-04-11 13:47:35,582 - INFO - Max Drawdown: -12.28%
+2025-04-11 13:47:35,582 - INFO - CAGR: -5.02%
