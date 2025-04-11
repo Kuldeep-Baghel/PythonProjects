@@ -2,23 +2,24 @@
 
 ## Overview
 This Python project performs advanced backtesting on Simple Moving Average (SMA) crossover strategies. It enables interactive user input, dynamic portfolio performance tracking, and detailed visualizations using historical data from Yahoo Finance.
-
+---
 ✅ Features
-    📈 Fetches stock data via yfinance
-    🔄 User inputs ticker, date range, initial capital & SMA periods
-    🟢 Detects Buy/Sell signals based on SMA crossovers
-    💼 Simulates trades with capital allocation logic
-    📊 Logs all trades in trade_log.txt
-    📉 Calculates advanced metrics:
-            Sharpe Ratio
-            Max Drawdown
-            CAGR (Compounded Annual Growth Rate)
-            Max Consecutive Losses
-    📷 Plots:
-            Buy/Sell signals
-            Portfolio performance
-            Drawdown visualizations
+-    📈 Fetches stock data via yfinance
+-    🔄 User inputs ticker, date range, initial capital & SMA periods
+-   🟢 Detects Buy/Sell signals based on SMA crossovers
+-   💼 Simulates trades with capital allocation logic
+-   📊 Logs all trades in trade_log.txt
+-   📉 Calculates advanced metrics:
+-            Sharpe Ratio
+-           Max Drawdown
+-           CAGR (Compounded Annual Growth Rate)
+-            Max Consecutive Losses
+-    📷 Plots:
+-            Buy/Sell signals
+-            Portfolio performance
+-            Drawdown visualizations
 
+---
 ⚙️ Installation
     Ensure Python is installed, then install required libraries:
         pip install pandas numpy yfinance matplotlib
