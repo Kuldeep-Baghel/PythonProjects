@@ -1,0 +1,12 @@
+2025-04-11 14:31:29,984 - INFO - Starting backtest for M&M.NS
+2025-04-11 14:31:36,860 - INFO - Buy 81.0 shares at ₹1221.90, Remaining Cash: ₹1025.80
+2025-04-11 14:31:36,959 - INFO - Sell 81.0 shares at ₹1171.30, New Cash: ₹95900.85
+2025-04-11 14:31:36,992 - INFO - Buy 70.0 shares at ₹1363.66, Remaining Cash: ₹444.58
+2025-04-11 14:31:37,316 - INFO - Sell 70.0 shares at ₹2789.10, New Cash: ₹195681.58
+2025-04-11 14:31:37,328 - INFO - Final Portfolio Value: ₹195681.58
+2025-04-11 14:31:37,328 - INFO - Profit: ₹95681.58
+2025-04-11 14:31:37,328 - INFO - ROI: 95.68%
+2025-04-11 14:31:37,334 - INFO - Sharpe Ratio: 0.05
+2025-04-11 14:31:37,334 - INFO - Max Consecutive Losses: 0
+2025-04-11 14:31:37,335 - INFO - Max Drawdown: -19.46%
+2025-04-11 14:31:37,337 - INFO - CAGR: 22.75%
