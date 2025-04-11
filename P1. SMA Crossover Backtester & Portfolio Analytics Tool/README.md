@@ -9,12 +9,13 @@ This Python project performs advanced backtesting on Simple Moving Average (SMA)
 🟢 Detects Buy/Sell signals based on SMA crossovers  
 💼 Simulates trades with capital allocation logic  
 📊 Logs all trades in trade_log.txt  
-📉 Calculates advanced metrics:  
+📉 Calculates advanced metrics:
 - Sharpe Ratio  
 - Max Drawdown  
 - CAGR (Compounded Annual Growth Rate)  
 - Max Consecutive Losses  
-📷 Plots:  
+
+📷 Plots:
 - Buy/Sell signals  
 - Portfolio performance  
 - Drawdown visualizations  
@@ -48,7 +49,9 @@ Inputs:
 - Max Consecutive Losses: 2  
 - Max Drawdown: -7.32%  
 - CAGR: 11.12%  
-✅ trade_log.txt captures buy/sell history  
+
+✅ trade_log.txt captures buy/sell history 
+ 
 ✅ Two matplotlib charts:  
 - SMA crossover with Buy/Sell markers  
 - Portfolio value with drawdown shading  
